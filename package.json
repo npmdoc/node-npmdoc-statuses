@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### api documentation for  [statuses (v1.3.1)](https://github.com/jshttp/statuses)  [![npm package](https://img.shields.io/npm/v/npmdoc-statuses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-statuses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-statuses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-statuses)",
+    "description": "#### basic api documentation for  [statuses (v1.3.1)](https://github.com/jshttp/statuses)  [![npm package](https://img.shields.io/npm/v/npmdoc-statuses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-statuses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-statuses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-statuses)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "statuses": "*",
@@ -35,5 +35,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }

@@ -1,6 +1,6 @@
 # npmdoc-statuses
 
-#### api documentation for  [statuses (v1.3.1)](https://github.com/jshttp/statuses)  [![npm package](https://img.shields.io/npm/v/npmdoc-statuses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-statuses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-statuses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-statuses)
+#### basic api documentation for  [statuses (v1.3.1)](https://github.com/jshttp/statuses)  [![npm package](https://img.shields.io/npm/v/npmdoc-statuses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-statuses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-statuses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-statuses)
 
 #### HTTP status utility
 
@@ -102,7 +102,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "update": "npm run fetch && npm run build"
     },
-    "version": "1.3.1"
+    "version": "1.3.1",
+    "bin": {}
 }
 ```
 
